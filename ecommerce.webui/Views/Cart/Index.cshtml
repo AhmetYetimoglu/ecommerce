@@ -1,0 +1,118 @@
+@model CartModel
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ecommerce</title>
+<link rel="stylesheet" href="/modules/bootstrap/dist/css/bootstrap.min.css" crossorigin="anonymous">
+<link href="~/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--theme-style-->
+<link href="~/css/mystyles.css" rel="stylesheet" type="text/css" media="all" />	
+<!--//theme-style-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--fonts-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<!--//fonts-->
+<script src="~/js/jquery.min.js"></script>
+<!--script-->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+</head>
+<body> 
+@await Html.PartialAsync("_header") 
+<!-- start content -->
+<main class="my-3">
+        <div class="container">   
+            <h1 class="h3">Sepetim</h1>
+            <hr>
+            @if(Model.CartItems.Count==0)
+            {
+                <div class="row">
+                    <div class="col-12">
+                        <div class="alert alert-warning">
+                            Sepetinizde ürün yok.
+                        </div>
+                    </div>
+                </div>
+            }
+            else{
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="text-left">
+                            <h4>Sepettekiler</h4>
+                        </div>
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>Ürün İsmi</th>
+                                    <th>Ücret</th>
+                                    <th>Ürün Miktarı</th>
+                                    <th>Toplam</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model.CartItems)
+                                {
+                                    <tr>
+                                        <td>
+                                            <img src="~/img/@item.ImageUrl" width="80" alt="">
+                                        </td>
+                                        <td>@item.Name</td>
+                                        <td>@item.Price</td>
+                                        <td>@item.Quantity</td>
+                                        <td>@(item.Quantity*item.Price)</td>
+                                        <td>
+
+                                            <form asp-controller="Cart" asp-action="DeleteFromCart" method="post">
+                                                <input type="hidden" name="productId" value="@item.ProductId">
+                                                <button type="submit" class="btn btn-danger btn-sm">
+                                                    <i class="fa fa-times fa-fw"></i>
+                                                </button>
+                                            </form>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="text-left">
+                            <h4>Sepet Özeti</h4>
+                        </div>
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <th>Sepet Toplamı</th>
+                                    <td>@Model.TotalPrice().ToString("c")</td>
+                                </tr>
+                                <tr>
+                                    <th>Shipping</th>
+                                    <th>Free</th>
+                                </tr>
+                                <tr>
+                                    <th>Toplam Sipariş</th>
+                                    <th>@Model.TotalPrice().ToString("c")</th>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="text-center">
+                            <a href="/" class="btn btn-primary">
+                                <i class="fa fa-arrow-circle-left fa-fw"></i> Alışverişe Devam Et
+                            </a>
+                            <a href="/checkout" class="btn btn-primary">
+                                <i class="fa fa-arrow-circle-right fa-fw"></i> Alışverişi Tamamla
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+</main>
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+@model ProductListViewModel
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ürün Listesi</title>
+<link rel="stylesheet" href="/modules/bootstrap/dist/css/bootstrap.min.css" crossorigin="anonymous">
+<link href="~/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+<!--theme-style-->
+<link href="~/css/mystyles.css" rel="stylesheet" type="text/css" media="all" />	
+<!--//theme-style-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--fonts-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<!--//fonts-->
+<script src="~/js/jquery.min.js"></script>
+<!--script-->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css">
+<script src="//cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
+    <script>
+        $(document).ready( function () {
+            $('#myTable').DataTable();
+        });
+    </script>
+</head>
+<body>
+	@await Html.PartialAsync("_header")  
+	<div class="container">
+        <div class="row">
+    <div class="col-md-12">
+        <h1 class="h3">Yönetici Ürünleri</h1>
+        <hr>
+        <a class="btn btn-primary btn-sm" href="/admin/products/create">Ürün Ekle</a>
+        <table data-page-length='10' id="myTable" class="table table-bordered mt-3">
+            <thead>
+                <tr>
+                    <td style="width: 30px;">Id</td>
+                    <td style="width: 100px;">Resim</td>
+                    <td>İsim</td>
+                    <td style="width: 20px;">Fiyat</td>
+                    <td style="width: 20px;">Anasayfa</td>
+                    <td style="width: 20px;">Onaylı</td>
+                    <td style="width: 150px;"></td>
+                </tr>
+            </thead>
+            <tbody>
+                @if(Model.Products.Count>0)
+                {
+                    @foreach (var item in Model.Products)
+                        {
+                            <tr>
+                                <td>@item.ProductId</td>
+                                <td><img src="~/img/@item.ImageUrl" width="80"></td>
+                                <td>@item.Name</td>
+                                <td>@item.Price</td>
+                                <td>
+                                    @if(item.IsHome)
+                                    {
+                                        <i class="fas fa-check-circle"></i>
+                                    }else{
+                                        <i class="fas fa-times-circle"></i>
+                                    }
+                                </td>
+                                <td>
+                                    @if(item.IsApproved)
+                                    {
+                                        <i class="fas fa-check-circle"></i>
+                                    }else{
+                                        <i class="fas fa-times-circle"></i>
+                                    }
+                                </td>
+                                <td>
+                                    <a href="/admin/products/@item.ProductId" class="btn btn-primary btn-sm mr-2">Güncelle</a>
+                                    
+                                    <form action="/admin/deleteproduct" method="POST" style="display: inline;">
+                                        <input type="hidden" name="productId" value="@item.ProductId">
+                                        <button type="submit" class="btn btn-danger btn-sm">Sil</button>
+                                    </form>
+                                </td>
+                        </tr>
+                        }
+                }else{
+                    <div class="alert alert-warning">
+                        <h3>Ürün Bulunmamaktadır</h3>
+                    </div>
+                }
+
+            
+            </tbody>
+        </table>
+    </div>
+</div>
+	</div>
+	<!---->
+</body>
+</html>

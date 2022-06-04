@@ -1,0 +1,86 @@
+@model RoleDetails
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Rol Güncelleme</title>
+<link rel="stylesheet" href="/modules/bootstrap/dist/css/bootstrap.min.css" crossorigin="anonymous">
+<link href="~/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+<!--theme-style-->
+<link href="~/css/mystyles.css" rel="stylesheet" type="text/css" media="all" />	
+<!--//theme-style-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--fonts-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<!--//fonts-->
+<script src="~/js/jquery.min.js"></script>
+<!--script-->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+<body>
+	@await Html.PartialAsync("_header")  
+	<div class="container">
+        <h1 class="h3">Rolü Güncelle</h1>
+        <hr>
+        <div class="row">
+            <div class="col-md-12">
+
+                <form asp-controller="Admin" asp-action="RoleEdit">
+                    <input type="hidden" name="RoleId" value="@Model.Role.Id">
+                    <input type="hidden" name="RoleName" value="@Model.Role.Name">
+                    <h6 class="bg-info text-white p-1">@Model.Role.Name rolüne ekle</h6>
+                    <table class="table table-bordered table-sm">
+                        @if(Model.NonMembers.Count()==0)
+                        {
+                            <tr>
+                                <td colspan="2">Bütün kullanıcılar role ait</td>
+                            </tr>
+                        }else{
+                            @foreach (var user in Model.NonMembers)
+                            {
+                                <tr>
+                                    <td>@user.UserName</td>
+                                <td style="width: 150px;">
+                                        <input type="checkbox" name="IdsToAdd" value="@user.Id">
+                                    </td>
+                                </tr>
+                            }
+                        }
+                    </table>
+
+                    <hr>
+
+                    <h6 class="bg-info text-white p-1">@Model.Role.Name rolünden çıkar</h6>
+                    <table class="table table-bordered table-sm">
+                        @if(Model.Members.Count()==0)
+                        {
+                            <tr>
+                                <td colspan="2">Role ait kullanıcı yok.</td>
+                            </tr>
+                        }else{
+                            @foreach (var user in Model.Members)
+                            {
+                                <tr>
+                                    <td>@user.UserName</td>
+                                    <td style="width: 150px;">
+                                        <input type="checkbox" name="IdsToDelete" value="@user.Id">
+                                    </td>
+                                </tr>
+                            }
+                        }
+                    </table>
+
+                    <button type="submit" class="btn btn-primary">Değişiklikleri Kaydet</button>
+
+                </form>
+
+
+            </div>
+        </div>
+	</div>
+	<!---->
+</body>
+</html>

@@ -1,0 +1,124 @@
+@model OrderModel
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ecommerce</title>
+<link rel="stylesheet" href="/modules/bootstrap/dist/css/bootstrap.min.css" crossorigin="anonymous">
+<link href="~/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+<!--theme-style-->
+<link href="~/css/mystyles.css" rel="stylesheet" type="text/css" media="all" />	
+<!--//theme-style-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--fonts-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<!--//fonts-->
+<script src="~/js/jquery.min.js"></script>
+<!--script-->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+</head>
+<body> 
+@await Html.PartialAsync("_header") 
+<!-- start content -->
+<main class="my-3">
+        <div class="container">
+            @if(TempData["message"]!=null)
+            {
+                <partial name="_ResultMessage" model="@(TempData.Get<AlertMessage>("message"))"/>
+            }        
+            <h1>Alışverişi Tamamla</h1>
+            <hr>
+            <div class="row">
+                <div class="col-md-8">
+                    <h4 class="mb-3">Sipariş Detayı</h4>
+                    <form method="POST" asp-controller="Cart" asp-action="Checkout">
+                        <input type="hidden" name="cartId" value="0">
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label asp-for="@Model.FirstName">Ad</label>
+                                <input asp-for="@Model.FirstName" class="form-control">
+                            </div>
+                            <div class="col-md-6">
+                                <label asp-for="@Model.LastName">Soyad</label>
+                                <input asp-for="@Model.LastName" class="form-control">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label  asp-for="@Model.Address">Adresiniz</label>
+                            <textarea  asp-for="@Model.Address" class="form-control"></textarea>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-4">
+                                <label asp-for="@Model.City">Şehir</label>
+                                <input asp-for="@Model.City" class="form-control">
+                            </div>
+                            <div class="col-md-4">
+                                <label asp-for="@Model.Phone">Telefon Numarası</label>
+                                <input asp-for="@Model.Phone" class="form-control">
+                            </div>
+                            <div class="col-md-4">
+                                <label asp-for="@Model.Email">E-Posta</label>
+                                <input asp-for="@Model.Email" class="form-control">
+                            </div>
+                        </div>
+                        <h4 class="mb-3">Ödeme Bilgileri</h4>
+                        <hr class="mb-3">
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label asp-for="@Model.CardName">Karta İsim Ver</label>
+                                <input asp-for="@Model.CardName" class="form-control">
+                            </div>
+                                <div class="col-md-6">
+                                <label asp-for="@Model.CardNumber">Kart Numarası</label>
+                                <input asp-for="@Model.CardNumber" class="form-control">
+                            </div>              
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-4">
+                                <label asp-for="@Model.ExpirationMonth">Ay</label>
+                                <input asp-for="@Model.ExpirationMonth" class="form-control">
+                            </div>
+                                <div class="col-md-4">
+                                <label asp-for="@Model.ExpirationYear">Yıl</label>
+                                <input asp-for="@Model.ExpirationYear" class="form-control">
+                            </div>  
+                            <div class="col-md-4">
+                                <label asp-for="@Model.Cvc"></label>
+                                <input asp-for="@Model.Cvc" class="form-control">
+                            </div>             
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg btn-block">Onayla</button>
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="mb-3">
+                        <span>Özet Bilgiler</span>
+                    </h4>
+                    <ul class="list-group mb-3">
+
+                        @foreach (var item in Model.CartModel.CartItems)
+                        {
+                            <li class="list-group-item d-flex justify-content-between">
+                                <div>
+                                    <h6>@item.Name</h6>
+                                </div>
+                                <span class="text-muted">@item.Price.ToString("c")</span>
+                            </li>
+                        }          
+                        
+                        <li class="list-group-item d-flex justify-content-between">
+                            <span>Toplam (TL)</span>
+                            <strong>@Model.CartModel.TotalPrice().ToString("c")</strong>
+                        </li>
+                    </ul>
+                
+                </div>
+            </div>
+        </div>
+</main>
+</body>
+</html>

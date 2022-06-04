@@ -1,0 +1,84 @@
+@model ProductModel
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ürün Oluşturma</title>
+<link rel="stylesheet" href="/modules/bootstrap/dist/css/bootstrap.min.css" crossorigin="anonymous">
+<link href="~/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+<!--theme-style-->
+<link href="~/css/mystyles.css" rel="stylesheet" type="text/css" media="all" />	
+<!--//theme-style-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--fonts-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<!--//fonts-->
+<script src="~/js/jquery.min.js"></script>
+<!--script-->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<script src="/modules/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="/modules/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"></script>
+<script src="/modules/ckeditor/ckeditor.js"></script>
+<script>
+    CKEDITOR.replace('editor');
+</script>
+</head>
+<body>
+	@await Html.PartialAsync("_header")  
+	<div class="container">
+        @if(TempData["message"]!=null)
+        {
+            <partial name="_ResultMessage" model="@(TempData.Get<AlertMessage>("message"))"/>
+        }   
+		<h1 class="h3">Ürün Ekle</h1>
+        <hr>
+
+        <div class="row">
+            <div class="col-md-8">
+                <form asp-controller="Admin" asp-action="ProductCreate" method="POST">
+                <div class="form-group row">
+                    <label asp-for="Name" class="col-sm-2 col-form-label">Ürünün İsmi</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" asp-for="Name">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label asp-for="Url" class="col-sm-2 col-form-label"></label>
+                    <div class="col-sm-10">
+                        <input class="form-control" asp-for="Url">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label  asp-for="Description" class="col-sm-2 col-form-label">Ürün Açıklaması</label>
+                    <div class="col-sm-10">
+                        <textarea class="form-control" asp-for="Description"></textarea>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label  asp-for="Price" class="col-sm-2 col-form-label">Fiyat</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" asp-for="Price">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label asp-for="ImageUrl" class="col-sm-2 col-form-label">Resmin Url'i</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" asp-for="ImageUrl">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-sm-10 offset-sm-2">
+                        <button type="submit" class="btn btn-primary">Ürünü Kaydet</button>
+                    </div>
+                </div>
+            </form>
+            </div>
+        </div>
+	</div>
+	<!---->
+</body>
+</html>

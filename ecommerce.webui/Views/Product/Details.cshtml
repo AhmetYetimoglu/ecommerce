@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Detaylar</title>
+<link rel="stylesheet" href="/modules/bootstrap/dist/css/bootstrap.min.css" crossorigin="anonymous">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--theme-style-->
+<link href="css/styles.css" rel="stylesheet" type="text/css" media="all" />	
+<link rel="stylesheet" href="css/etalage.css" type="text/css" media="all" />
+<!--//theme-style-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--fonts-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<!--//fonts-->
+<script src="js/jquery.min.js"></script>
+
+<script src="js/jquery.etalage.min.js"></script>
+<script>
+			jQuery(document).ready(function($){
+
+				$('#etalage').etalage({
+					thumb_image_width: 300,
+					thumb_image_height: 400,
+					source_image_width: 900,
+					source_image_height: 1200,
+					show_hint: true,
+					click_callback: function(image_anchor, instance_id){
+						alert('Callback example:\nYou clicked on an image with the anchor: "'+image_anchor+'"\n(in Etalage instance: "'+instance_id+'")');
+					}
+				});
+
+			});
+		</script>
+
+</head>
+<body>
+    @await Html.PartialAsync("_header") 
+	 <div class="container"> 
+	 	
+	 	<div class=" single_top">
+	      <div class="single_grid">
+				<div class="grid images_3_of_2">
+						<ul id="etalage">
+							<li>
+								<a href="optionallink.html">
+									<img class="etalage_thumb_image" src="images/3070TIBig.jpg" class="img-responsive" />
+									<img class="etalage_source_image" src="images/3070TIBig.jpg" class="img-responsive" title="" />
+								</a>
+							</li>
+						</ul>
+						 <div class="clearfix"> </div>		
+				  </div> 
+				  <div class="desc1 span_3_of_2">
+				  
+					
+					<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4>
+				<div class="cart-b">
+					<div class="left-n ">16500 TL</div>
+				    <a class="now-get get-cart-in" href="#">SEPETE EKLE</a> 
+				    <div class="clearfix"></div>
+				 </div>
+			   	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+				</div>
+          	    <div class="clearfix"> </div>
+          	   </div>
+          	   <ul id="flexiselDemo1">
+			<li><img src="images/1660S.jpg" /><div class="grid-flex"><a href="#">1660S</a><p>10000 TL</p></div></li>
+			<li><img src="images/6500XT.jpg" /><div class="grid-flex"><a href="#">6500XT</a><p>8800 TL</p></div></li>
+			<li><img src="images/6700XT.jpg" /><div class="grid-flex"><a href="#">6700XT</a><p>15000 TL</p></div></li>
+			<li><img src="images/1660TI.jpg" /><div class="grid-flex"><a href="#">1660TI</a><p>11500 TL</p></div></li>
+			<li><img src="images/2060.jpg" /><div class="grid-flex"><a href="#">2060</a><p>13000 TL</p></div></li>
+		 </ul>
+	    <script type="text/javascript">
+		 $(window).load(function() {
+			$("#flexiselDemo1").flexisel({
+				visibleItems: 5,
+				animationSpeed: 1000,
+				autoPlay: true,
+				autoPlaySpeed: 3000,    		
+				pauseOnHover: true,
+				enableResponsiveBreakpoints: true,
+		    	responsiveBreakpoints: { 
+		    		portrait: { 
+		    			changePoint:480,
+		    			visibleItems: 1
+		    		}, 
+		    		landscape: { 
+		    			changePoint:640,
+		    			visibleItems: 2
+		    		},
+		    		tablet: { 
+		    			changePoint:768,
+		    			visibleItems: 3
+		    		}
+		    	}
+		    });
+		    
+		});
+	</script>
+	<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+
+          	    	<div class="toogle">
+				     	<h3 class="m_3">Ürün Detayları</h3>
+				     	<p class="m_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
+				     </div>	
+          	   </div>
+          	   
+          	   <!---->
+<div class="sub-cate">
+				<div class=" top-nav rsidebar span_1_of_left">
+					<h3 class="cate">KATEGORİLER</h3>
+		  <ul class="menu">
+				<li>
+			<ul class="kid-menu">
+				<li><a href="product.html">Ekran Kartı</a></li>
+				<li ><a href="product.html">RAM</a></li>
+				<li ><a href="product.html">İşlemci</a></li>
+			</ul>
+		</li>
+	</ul>
+					</div>
+				<!--initiate accordion-->
+		<script type="text/javascript">
+			$(function() {
+			    var menu_ul = $('.menu > li > ul'),
+			           menu_a  = $('.menu > li > a');
+			    menu_ul.hide();
+			    menu_a.click(function(e) {
+			        e.preventDefault();
+			        if(!$(this).hasClass('active')) {
+			            menu_a.removeClass('active');
+			            menu_ul.filter(':visible').slideUp('normal');
+			            $(this).addClass('active').next().stop(true,true).slideDown('normal');
+			        } else {
+			            $(this).removeClass('active');
+			            $(this).next().stop(true,true).slideUp('normal');
+			        }
+			    });
+			
+			});
+		</script>
+	   		     	 <a class="view-all all-product" href="product.html">Bütün Ürünleri Gör<span> </span></a> 	
+			</div>
+<div class="clearfix"> </div>			
+		</div>
+	<!---->
+</body>
+</html>

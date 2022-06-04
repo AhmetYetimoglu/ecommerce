@@ -1,0 +1,132 @@
+@model ProductListViewModel
+@{
+	var products = Model.Products;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ürünler</title>
+<link rel="stylesheet" href="/modules/bootstrap/dist/css/bootstrap.min.css" crossorigin="anonymous">
+<link href="~/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--theme-style-->
+<link href="~/css/mystyles.css" rel="stylesheet" type="text/css" media="all" />	
+<!--//theme-style-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--fonts-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<!--//fonts-->
+<script src="~/js/jquery.min.js"></script>
+<!--script-->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	@await Html.PartialAsync("_header") 
+	<!-- start content -->
+<div class="container">
+	<div class=" w_content">
+		<div class="women">
+				<ul class="w_nav">
+					<div class="dropdown" style="margin-right: 100px;">
+						<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Sıralama
+						</button>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item" asp-action="List" asp-route-sortOrder="@ViewData["PriceOrderInc"]">Artan Fiyat</a>
+							<a class="dropdown-item" asp-action="List" asp-route-sortOrder="@ViewData["PriceOrderDesc"]">Azalan Fiyat</a>
+						</div>
+					</div>
+				</ul>
+		</div>
+	</div>	
+</div>
+<div class="container">
+	<div class="women-product">
+		<!-- grids_of_4 -->
+		<div class="grid-product">
+			@if (products.Count == 0)
+			{
+				@await Html.PartialAsync("_noproduct")
+			}
+			else
+			{
+				@foreach (var product in products)
+				{	
+					@await Html.PartialAsync("_product",product)
+				}
+			}
+		</div>
+		<div class="row">
+			<div class="col">
+				<nav aria-label="Page navigation example">
+					<ul class="pagination">
+						@for (int i = 0; i < Model.PageInfo.TotalPages(); i++)
+						{
+							@if(String.IsNullOrEmpty(Model.PageInfo.CurrentCategory))
+							{
+								<li class="page-item @(Model.PageInfo.CurrentPage==i+1?"active":"")">
+									<a class="page-link" href="/products?page=@(i+1)">
+										@(i+1)
+									</a>
+								</li>  
+							}
+							else
+							{
+								<li class="page-item @(Model.PageInfo.CurrentPage==i+1?"active":"")">
+									<a class="page-link" href="/products/@Model.PageInfo.CurrentCategory?page=@(i+1)">
+										@(i+1)
+									</a>
+								</li> 
+							}
+													
+						}
+					</ul>
+				</nav>
+			</div>
+		</div>	
+	</div>
+	<div class="sub-cate">
+		<div class=" top-nav rsidebar span_1_of_left">
+			<h3 class="cate">KATEGORİLER</h3>
+			<ul class="menu">
+				<li>
+					<ul class="kid-menu">
+						@await Component.InvokeAsync("Categories")
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<!--initiate accordion-->
+		<script type="text/javascript">
+			$(function() {
+			    var menu_ul = $('.menu > li > ul'),
+			           menu_a  = $('.menu > li > a');
+			    menu_ul.hide();
+			    menu_a.click(function(e) {
+			        e.preventDefault();
+			        if(!$(this).hasClass('active')) {
+			            menu_a.removeClass('active');
+			            menu_ul.filter(':visible').slideUp('normal');
+			            $(this).addClass('active').next().stop(true,true).slideDown('normal');
+			        } else {
+			            $(this).removeClass('active');
+			            $(this).next().stop(true,true).slideUp('normal');
+			        }
+			    });
+			
+			});
+		</script>
+		<div class=" chain-grid menu-chain">
+			<a class="view-all all-product" href="/products">Bütün Ürünleri Gör<span> </span></a> 	
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+	<!---->
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

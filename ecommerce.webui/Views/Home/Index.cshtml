@@ -1,0 +1,128 @@
+@model ProductListViewModel
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Anasayfa</title>
+<link rel="stylesheet" href="/modules/bootstrap/dist/css/bootstrap.min.css" crossorigin="anonymous">
+<link href="~/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--theme-style-->
+<link href="~/css/mystyles.css" rel="stylesheet" type="text/css" media="all" />	
+<!--//theme-style-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--fonts-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<!--//fonts-->
+<script src="~/js/jquery.min.js"></script>
+<!--script-->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<style>
+.now-get{
+	font-size: 1.1em;
+	color:#fff;
+	padding:0.6em 0.8em;
+	background:#323A45;
+	text-decoration: none;
+}
+.now-get:hover{
+	background: #0D3F84;
+}
+.get-cart{
+	float:right;
+	padding: 0.4em 0.6em;
+	font-size: 1em;
+}
+</style>
+</head>
+<body>
+	@await Html.PartialAsync("_header")  
+	<div class="container">
+		<div class="shoes-grid">
+				<div class="shoes-grid-left">
+					<a href="single.html">				 
+	   		     		<div class="col-md-6 con-sed-grid">
+	   		     			<div class=" elit-grid"> 
+								<h4>AMD RX6500XT</h4>
+								<label>10000 TL</label>
+								<p></p>
+								<span class="on-get">SEPETE EKLE</span>						
+							</div>						
+							<img class="img-responsive shoe-left" src="~/img/6500XT.jpg" alt=" " style="width: 50%;"/>							
+							<div class="clearfix"> </div>						
+	   		     		</div>
+					</a>
+					<a href="single.html">	
+	   		     		<div class="col-md-6 con-sed-grid sed-left-top">
+	   		     			<div class=" elit-grid"> 
+								<h4>AMD RX6700XT</h4>
+								<label>14000 TL</label>
+								<p></p>
+								<span class="on-get">SEPETE EKLE</span>
+							</div>		
+							<img class="img-responsive shoe-left" src="~/img/6700XT.jpg" alt=" " style="width: 50%;" />						
+							<div class="clearfix"> </div>
+	   		     		</div>
+					</a>
+				</div>
+				<div class="product-left">
+					@for (int i = 0; i < Model.Products.Count; i++)
+					{
+						@if ((i>1)&&((i+1)%3==0))
+						{
+							@await Html.PartialAsync("_homeproduct",Model.Products[i])
+						}
+						else{
+							@await Html.PartialAsync("_homeproduct2",Model.Products[i])
+						}
+					}
+					<div class="clearfix"> </div>
+				</div>
+			</div>   
+			<div class="sub-cate">
+				<div class=" top-nav rsidebar span_1_of_left">
+					<h3 class="cate">KATEGORİLER</h3>
+					<ul class="menu">
+						<li>
+							<ul class="kid-menu">
+								@await Component.InvokeAsync("Categories")
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<!--initiate accordion-->
+				<script type="text/javascript">
+					$(function() {
+						var menu_ul = $('.menu > li > ul'),
+							menu_a  = $('.menu > li > a');
+						menu_ul.hide();
+						menu_a.click(function(e) {
+							e.preventDefault();
+							if(!$(this).hasClass('active')) {
+								menu_a.removeClass('active');
+								menu_ul.filter(':visible').slideUp('normal');
+								$(this).addClass('active').next().stop(true,true).slideDown('normal');
+							} else {
+								$(this).removeClass('active');
+								$(this).next().stop(true,true).slideUp('normal');
+							}
+						});
+					
+					});
+				</script>
+				<div class=" chain-grid menu-chain">
+					<a href="single.html"><img class="img-responsive chain" src="~/img/6800XT.jpg" alt=" " /></a>	   		     		
+					<div class="grid-chain-bottom chain-watch">
+						<span class="actual dolor-left-grid">10300 TL</span>
+						<h6><a href="single.html"></a></h6>  		     			   		     										
+					</div>
+				</div>
+				<a class="view-all all-product" href="/products">Bütün Ürünleri Gör<span> </span></a> 	
+			</div>
+			<div class="clearfix"> </div>        	         
+		</div>
+	</div>
+	<!---->
+</body>
+</html>

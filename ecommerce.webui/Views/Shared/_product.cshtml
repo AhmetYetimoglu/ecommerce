@@ -1,0 +1,17 @@
+@model Product
+
+<div class="  product-grid">
+    <div class="content_box">
+        <a asp-controller="shop" asp-action="Details" asp-route-url="@Model.Url">
+            <div class="left-grid-view grid-view-left">
+                <img src="~/img/@Model.ImageUrl" class="img-responsive watch-right" alt=""/>
+                    <div class="mask">
+                        <div class="info">Quick View</div>
+                    </div>
+            </div>
+        </a>
+            <h4><a asp-controller="shop" asp-action="Details" asp-route-url="@Model.Url"> @Model.Name</a></h4>
+                <p>@Model.Name</p>
+                @Model.Price ₺
+    </div>
+</div>

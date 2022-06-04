@@ -1,0 +1,80 @@
+<div class="header">
+    <div class="navbar navbar-dark navbar-expand-sm" style="background: #F97E76;">
+        <div class="container">
+            <a href="/" class="navbar-brand">Anasayfa</a>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a href="/products" class="nav-link">Ürünler</a>
+                </li>
+                @if(User.Identity.IsAuthenticated)
+                {
+                    <li class="nav-item">
+                        <a href="/orders" class="nav-link">Siparişlerim</a>
+                    </li>                        
+
+                    if(User.IsInRole("admin"))
+                    {
+                         <li class="nav-item">
+                        <a href="/admin/products" class="nav-link">Yönetici Ürünleri</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/admin/categories" class="nav-link">Yönetici Kategorileri</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/admin/role/list" class="nav-link">Roller</a>
+                        </li>
+                         <li class="nav-item">
+                            <a href="/admin/user/list" class="nav-link">Kullanıcılar</a>
+                        </li>
+                    }                      
+                }
+            </ul>
+        </div>
+    </div>
+    <div class="bottom-header">
+        <div class="container">
+            <div class="header-bottom-left">
+                <form action="/search">
+                    <div class="search">
+                        <input name="q" type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" >
+                        <input type="submit"  value="ARA">
+
+                    </div>
+                </form>
+                <div class="clearfix"> </div>
+            </div>
+            <div class="header-bottom-right">					
+                    @* <div class="account"><a href="login.html"><span> </span>HESABIM</a></div> *@
+                        <ul class="login">
+                            @if(User.Identity.IsAuthenticated)
+                            {   
+                                <li>
+                                    <a href="/account/manage">
+                                        <span> </span>
+                                        @User.Identity.Name | 
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/account/logout">Çıkış</a>
+                                </li>
+                            }
+                            else
+                            {                    
+                                <li>
+                                    <a href="/account/login"><span> </span>Giriş Yap | </a>
+                                </li>
+                                <li>
+                                    <a href="/account/register">Üye Ol</a>
+                                </li>
+                            }
+                        </ul>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <div class="cart"><a href="/cart"><span> </span>SEPETİM</a></div>   
+                        }
+                <div class="clearfix"> </div>
+            </div>
+            <div class="clearfix"> </div>	
+        </div>
+    </div>
+</div>

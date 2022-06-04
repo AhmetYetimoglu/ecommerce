@@ -1,0 +1,110 @@
+@model CategoryModel
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Kategori Güncelleme</title>
+<link rel="stylesheet" href="/modules/bootstrap/dist/css/bootstrap.min.css" crossorigin="anonymous">
+<link href="~/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+<!--theme-style-->
+<link href="~/css/mystyles.css" rel="stylesheet" type="text/css" media="all" />	
+<!--//theme-style-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--fonts-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<!--//fonts-->
+<script src="~/js/jquery.min.js"></script>
+<!--script-->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+<body>
+	@await Html.PartialAsync("_header")  
+	<div class="container">
+        <h1 class="h3">Kategori Güncelleme</h1>
+        <hr>
+        <div class="row">
+            <div class="col-md-4">
+                <form asp-controller="Admin" asp-action="CategoryEdit" method="POST">
+                <input type="hidden" name="CategoryId" value="@Model.CategoryId">
+                <div class="form-group row">
+                    <label asp-for="Name" class="col-sm-2 col-form-label">İsim</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" asp-for="Name">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label asp-for="Url" class="col-sm-2 col-form-label"></label>
+                    <div class="col-sm-10">
+                        <input class="form-control" asp-for="Url">
+                    </div>
+                </div>       
+                <div class="form-group row">
+                    <div class="col-sm-10 offset-sm-2">
+                        <button type="submit" class="btn btn-primary">Kategoriyi Kaydet</button>
+                    </div>
+                </div>
+            </form>
+            </div>
+            <div class="col-md-8">        
+                <div class="row">
+                    <div class="col-md-12">      
+                        <table class="table table-bordered table-sm">
+                            <thead>
+                                <tr>
+                                    <td style="width: 30px;">Id</td>
+                                    <td style="width: 100px;">Resim</td>
+                                    <td>Ürünün İsmi</td>
+                                    <td style="width: 20px;">Fiyat</td>
+                                    <td style="width: 20px;">Onaylı</td>
+                                    <td style="width: 150px;"></td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if(Model.Products.Count>0)
+                                {
+                                    @foreach (var item in Model.Products)
+                                        {
+                                            <tr>
+                                                <td>@item.ProductId</td>
+                                                <td><img src="~/img/@item.ImageUrl" width="80"></td>
+                                                <td>@item.Name</td>
+                                                <td>@item.Price</td>                                       
+                                                <td>
+                                                    @if(item.IsApproved)
+                                                    {
+                                                        <i class="fas fa-check-circle"></i>
+                                                    }else{
+                                                        <i class="fas fa-times-circle"></i>
+                                                    }
+                                                </td>
+                                                <td>
+                                                    <a href="/admin/products/@item.ProductId" class="btn btn-primary btn-sm mr-2">Güncelle</a>
+                                                    
+                                                    <form action="/admin/deletefromcategory" method="POST" style="display: inline;">
+                                                        <input type="hidden" name="productId" value="@item.ProductId">
+                                                        <input type="hidden" name="categoryId" value="@Model.CategoryId">
+                                                        <button type="submit" class="btn btn-danger btn-sm">Sil</button>
+                                                    </form>
+                                                </td>
+                                        </tr>
+                                        }
+                                }else{
+                                    <div class="alert alert-warning">
+                                        <h3>Ürün Yok</h3>
+                                    </div>
+                                }
+
+                            
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</div>
+	<!---->
+</body>
+</html>

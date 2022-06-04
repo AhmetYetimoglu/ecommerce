@@ -1,0 +1,269 @@
+@model ProductCommentViewModel
+
+@{
+	var ratingSum = ViewBag.RatingSum;
+	var ratingCount = ViewBag.RatingCount;
+
+	decimal rating = 0;
+	if(ratingCount > 0)
+	{
+		rating = (ratingSum/ratingCount);
+	}
+
+	var totalRating = decimal.Parse(rating.ToString());
+}
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ürün Detayları</title>
+<link rel="stylesheet" href="/modules/bootstrap/dist/css/bootstrap.min.css" crossorigin="anonymous">
+<link href="~/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--theme-style-->
+<link href="~/css/mystyles.css" rel="stylesheet" type="text/css" media="all" />	
+<link rel="stylesheet" href="~/css/etalage.css" type="text/css" media="all" />
+<!--//theme-style-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--fonts-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<!--//fonts-->
+<script src="~/js/jquery.min.js"></script>
+
+<script src="~/js/jquery.etalage.min.js"></script>
+<script>
+			jQuery(document).ready(function($){
+
+				$('#etalage').etalage({
+					thumb_image_width: 300,
+					thumb_image_height: 400,
+					source_image_width: 900,
+					source_image_height: 1200,
+					show_hint: true,
+					click_callback: function(image_anchor, instance_id){
+						alert('Callback example:\nYou clicked on an image with the anchor: "'+image_anchor+'"\n(in Etalage instance: "'+instance_id+'")');
+					}
+				});
+
+			});
+		</script>
+<style>
+.now-get{
+	font-size: 1.1em;
+	color:#fff;
+	padding:0.6em 0.8em;
+	background:#323A45;
+	text-decoration: none;
+}
+.now-get:hover{
+	background: #0D3F84;
+}
+.get-cart{
+	float:right;
+	padding: 0.4em 0.6em;
+	font-size: 1em;
+}
+.get-cart-in{
+	float:right;
+}
+.dl-horizontal dt {
+	white-space: normal;
+}
+input,
+select,
+textarea{
+	max-width: 280px;
+}
+.commentBox {
+	background-color: #efefef;
+	padding: 10px;
+	border-radius: 10px;
+}
+.starGlowN {
+	background-image: url('../img/starglow.gif');
+	min-width: 30px;
+	min-height: 30px;
+	display: inline-block;
+}
+.starGlow {
+	background-image: url('../img/starglow.gif');
+	min-width: 30px;
+	min-height: 30px;
+	display: inline-block;
+	cursor: pointer;
+}
+.starFade {
+	background-image: url('../img/StarFade.gif');
+	min-width: 30px;
+	min-height: 30px;
+	display: inline-block;
+	cursor: pointer;
+}
+.starFadeN {
+	background-image: url('../img/StarFade.gif');
+	min-width: 30px;
+	min-height: 30px;
+	display: inline-block;
+}
+</style>
+
+</head>
+<body>
+@await Html.PartialAsync("_header") 
+<div class="container"> 
+	 	
+	<div class=" single_top">
+		<div class="single_grid">
+			<div class="grid images_3_of_2">
+					<ul id="etalage">
+						<li>
+							<a href="optionallink.html">
+								<img class="etalage_thumb_image" src="~/img/3070TIBig.jpg" class="img-responsive" />
+								<img class="etalage_source_image" src="~/img/3070TIBig.jpg" class="img-responsive" title="" />
+							</a>
+						</li>
+					</ul>
+						<div class="clearfix"> </div>		
+				</div> 
+				<div class="desc1 span_3_of_2">
+				
+				
+				<h4>@Model.Product.Name</h4>
+				<div style="">
+					<span class="starFadeN" id="sRate1"></span>
+					<span class="starFaden" id="sRate2"></span>
+					<span class="starFaden" id="sRate3"></span>
+					<span class="starFaden" id="sRate4"></span>
+					<span class="starFaden" id="sRate5"></span>
+				</div>
+			<div class="cart-b">
+				<div class="left-n ">@Model.Product.Price</div>
+				<form asp-controller="Cart" asp-action="AddToCart" method="POST">
+					<input type="hidden" name="productId" value="@Model.Product.ProductId">
+					<input type="hidden" name="quantity" value="1">
+					<button class="now-get get-cart-in" href="#">SEPETE EKLE</button> 
+				</form>
+				<div class="clearfix"></div>
+				</div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+			</div>
+			<div class="clearfix"> </div>
+			</div>
+			<ul id="flexiselDemo1">
+		<li><img src="~/img/1660S.jpg" /><div class="grid-flex"><a href="/1660S">1660S</a><p>10000 TL</p></div></li>
+		<li><img src="~/img/6500XT.jpg" /><div class="grid-flex"><a href="/6500XT">6500XT</a><p>8800 TL</p></div></li>
+		<li><img src="~/img/6700XT.jpg" /><div class="grid-flex"><a href="/6700XT">6700XT</a><p>15000 TL</p></div></li>
+		<li><img src="~/img/1660TI.jpg" /><div class="grid-flex"><a href="/1660TI">1660TI</a><p>11500 TL</p></div></li>
+		<li><img src="~/img/2060.jpg" /><div class="grid-flex"><a href="/2060">2060</a><p>13000 TL</p></div></li>
+		</ul>
+	<script type="text/javascript">
+		$(window).load(function() {
+		$("#flexiselDemo1").flexisel({
+			visibleItems: 5,
+			animationSpeed: 1000,
+			autoPlay: true,
+			autoPlaySpeed: 3000,    		
+			pauseOnHover: true,
+			enableResponsiveBreakpoints: true,
+			responsiveBreakpoints: { 
+				portrait: { 
+					changePoint:480,
+					visibleItems: 1
+				}, 
+				landscape: { 
+					changePoint:640,
+					visibleItems: 2
+				},
+				tablet: { 
+					changePoint:768,
+					visibleItems: 3
+				}
+			}
+		});
+		
+	});
+	</script>
+	<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+
+	<div class="toogle">
+		<h3 class="m_3">Değerlendirmeler</h3>
+		<hr>
+		<partial name="_CommentBox"></partial>
+		<hr>
+		@foreach (var c in Model.ListOfComments)
+		{
+			<hr>
+			<div class="row">
+				<div class="col-md-3">
+					<hr>
+					@c.UserName
+					<hr>
+					<i>@c.PublishedDate</i>
+					<br>
+					@for (var i = 1; i < c.Rating; i++)
+					{
+						<span class="starGlowN"></span>
+					}
+					@for (var i = (c.Rating+1); i <=5; i++)
+					{
+						<span class="starFadeN"></span>
+					}
+				</div>
+				<div class="col-md-9">
+					@Html.Raw(c.Comments.Replace("\n","<br>"))
+				</div>
+			</div>
+		}
+		<hr>
+
+		<script>
+			function SCRate() {
+				for (var i =1; i<=@totalRating;i++)
+				{
+					$("#sRate"+i).attr('class','starGlowN');
+				}
+			}
+			$(function(){
+				SCRate();
+			});
+		</script>	
+	</div>
+</div>
+	<!---->
+	<div class="sub-cate">
+		<div class=" top-nav rsidebar span_1_of_left">
+			<h3 class="cate">KATEGORİLER</h3>
+			<ul class="menu">
+				<li>
+					<ul class="kid-menu">
+						@await Component.InvokeAsync("Categories")
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<!--initiate accordion-->
+		<script type="text/javascript">
+			$(function() {
+			    var menu_ul = $('.menu > li > ul'),
+			           menu_a  = $('.menu > li > a');
+			    menu_ul.hide();
+			    menu_a.click(function(e) {
+			        e.preventDefault();
+			        if(!$(this).hasClass('active')) {
+			            menu_a.removeClass('active');
+			            menu_ul.filter(':visible').slideUp('normal');
+			            $(this).addClass('active').next().stop(true,true).slideDown('normal');
+			        } else {
+			            $(this).removeClass('active');
+			            $(this).next().stop(true,true).slideUp('normal');
+			        }
+			    });
+			
+			});
+		</script>
+		<a class="view-all all-product" href="/products">Bütün Ürünleri Gör<span> </span></a> 	
+	</div>
+	<div class="clearfix"> </div>		
+
+	<!---->
+</body>
+</html>

@@ -1,0 +1,23 @@
+@model Product
+<div class="col-md-4 chain-grid grid-top-chain">
+    <a asp-controller="shop" asp-action="Details" asp-route-url="@Model.Url" ><img class="img-responsive chain" src="~/img/@Model.ImageUrl" alt=" " /></a>
+    <span class="star"> </span>
+    <div class="grid-chain-bottom">
+        <h6><a href="single.html">@Model.Name</a></h6>
+        <div class="star-price">
+            <div class="dolor-grid"> 
+                <span class="actual">@Model.Price TL</span>
+            </div>
+            @if(User.Identity.IsAuthenticated)
+            {
+                <form asp-controller="Cart" asp-action="AddToCart" method="POST" style="display: inline;">
+                    <input type="hidden" name="productId" value="@Model.ProductId">
+                    <input type="hidden" name="quantity" value="1">
+                    <button type="submit" class="now-get get-cart">SEPETE EKLE</button>
+                </form>
+            }
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+</div>
+
