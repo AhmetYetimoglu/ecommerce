@@ -23,6 +23,10 @@
 <body>
 	@await Html.PartialAsync("_header")  
 	<div class="container">
+        @if(TempData["message"]!=null)
+        {
+            <partial name="_ResultMessage" model="@(TempData.Get<AlertMessage>("message"))"/>
+        }
         <div class="row">
             <div class="col-md-12">
                 <h1 class="h3">Rol Listesi</h1>
@@ -47,7 +51,7 @@
                                         <td>
                                             <a href="/admin/role/@item.Id" class="btn btn-primary btn-sm mr-2">Güncelle</a>
                                             
-                                            <form action="/admin/role/delete" method="POST" style="display: inline;">
+                                            <form action="/admin/DeleteRole" method="POST" style="display: inline;">
                                                 <input type="hidden" name="RoleId" value="@item.Id">
                                                 <button type="submit" class="btn btn-danger btn-sm">Sil</button>
                                             </form>

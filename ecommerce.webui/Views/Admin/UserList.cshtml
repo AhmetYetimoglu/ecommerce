@@ -32,6 +32,10 @@
 <body>
 	@await Html.PartialAsync("_header")  
 	<div class="container">
+        @if(TempData["message"]!=null)
+        {
+            <partial name="_ResultMessage" model="@(TempData.Get<AlertMessage>("message"))"/>
+        }
         <div class="row">
             <div class="col-md-12">
                 <h1 class="h3">Kullanıcı Listesi</h1>
@@ -61,7 +65,7 @@
                                         <td>
                                             <a href="/admin/user/@item.Id" class="btn btn-primary btn-sm mr-2">Güncelle</a>
                                             
-                                            <form action="/admin/user/delete" method="POST" style="display: inline;">
+                                            <form action="/admin/DeleteUser" method="POST" style="display: inline;">
                                                 <input type="hidden" name="UserId" value="@item.Id">
                                                 <button type="submit" class="btn btn-danger btn-sm">Sil</button>
                                             </form>

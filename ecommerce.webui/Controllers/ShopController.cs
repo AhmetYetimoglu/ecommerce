@@ -37,53 +37,6 @@ namespace ecommerce.webui.Controllers
                 Products = _productService.GetProductsByCategory(category,page,pageSize,sortOrder)
             };
 
-            // var productViewModel = new ProductListViewModel();
-            // ViewData["PriceOrderDesc"] = "price_desc";
-            // ViewData["PriceOrderInc"] = "price_inc";
-            // switch (sortOrder)
-            // {
-            //     case "price_desc":
-            //     productViewModel = new ProductListViewModel()
-            //     {
-            //         PageInfo = new PageInfo()
-            //         {
-            //             TotalItems = _productService.GetCountByCategory(category),
-            //             CurrentPage = page,
-            //             ItemsPerPage = pageSize,
-            //             CurrentCategory = category
-            //         },
-            //         Products = _productService.GetProductsByCategory(category,page,pageSize).OrderByDescending(a=> a.Price).ToList()
-                    
-            //     };
-            //         break;
-            //     case "price_inc":
-            //         productViewModel = new ProductListViewModel()
-            //         {
-            //             PageInfo = new PageInfo()
-            //             {
-            //                 TotalItems = _productService.GetCountByCategory(category),
-            //                 CurrentPage = page,
-            //                 ItemsPerPage = pageSize,
-            //                 CurrentCategory = category
-            //             },
-            //             Products = _productService.GetProductsByCategory(category,page,pageSize).OrderBy(a=> a.Price).ToList()
-                        
-            //         };
-            //     break;
-            //     default:
-            //         productViewModel = new ProductListViewModel()
-            //         {
-            //             PageInfo = new PageInfo()
-            //             {
-            //                 TotalItems = _productService.GetCountByCategory(category),
-            //                 CurrentPage = page,
-            //                 ItemsPerPage = pageSize,
-            //                 CurrentCategory = category
-            //             },
-            //             Products = _productService.GetProductsByCategory(category,page,pageSize)
-            //         };
-            //         break;
-            // }
             return View(productViewModel);
         }
 

@@ -30,6 +30,10 @@
 <body>
 	@await Html.PartialAsync("_header")  
 	<div class="container">
+        @if(TempData["message"]!=null)
+        {
+            <partial name="_ResultMessage" model="@(TempData.Get<AlertMessage>("message"))"/>
+        }
         <h1 class="h3">Ürün Güncelleme</h1>
         <hr>
 

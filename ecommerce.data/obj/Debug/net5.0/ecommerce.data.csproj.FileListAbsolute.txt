@@ -1,180 +1,198 @@
-C:\Users\Ahmet\Desktop\en baştan\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.deps.json
-C:\Users\Ahmet\Desktop\en baştan\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.runtimeconfig.json
-C:\Users\Ahmet\Desktop\en baştan\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.runtimeconfig.dev.json
-C:\Users\Ahmet\Desktop\en baştan\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.dll
-C:\Users\Ahmet\Desktop\en baştan\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.pdb
-C:\Users\Ahmet\Desktop\en baştan\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.entity.dll
-C:\Users\Ahmet\Desktop\en baştan\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.entity.pdb
-C:\Users\Ahmet\Desktop\en baştan\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.csproj.AssemblyReference.cache
-C:\Users\Ahmet\Desktop\en baştan\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Ahmet\Desktop\en baştan\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.AssemblyInfoInputs.cache
-C:\Users\Ahmet\Desktop\en baştan\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.AssemblyInfo.cs
-C:\Users\Ahmet\Desktop\en baştan\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.csproj.CoreCompileInputs.cache
-C:\Users\Ahmet\Desktop\en baştan\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.csproj.CopyComplete
-C:\Users\Ahmet\Desktop\en baştan\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.dll
-C:\Users\Ahmet\Desktop\en baştan\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.pdb
-C:\Users\Ahmet\Desktop\en baştan\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.genruntimeconfig.cache
-C:\Users\Ahmet\Desktop\en baştan\ecommerce\ecommerce.data\obj\Debug\net5.0\ref\ecommerce.data.dll
-C:\Users\Ahmet\Desktop\en baştan\ecommerce\ecommerce.data\bin\Debug\net5.0\ref\ecommerce.data.dll
-C:\Users\Ahmet\Desktop\kullanıcı sayfaları\deneme\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.deps.json
-C:\Users\Ahmet\Desktop\kullanıcı sayfaları\deneme\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.runtimeconfig.json
-C:\Users\Ahmet\Desktop\kullanıcı sayfaları\deneme\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.runtimeconfig.dev.json
-C:\Users\Ahmet\Desktop\kullanıcı sayfaları\deneme\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.dll
-C:\Users\Ahmet\Desktop\kullanıcı sayfaları\deneme\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.pdb
-C:\Users\Ahmet\Desktop\kullanıcı sayfaları\deneme\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.entity.dll
-C:\Users\Ahmet\Desktop\kullanıcı sayfaları\deneme\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.entity.pdb
-C:\Users\Ahmet\Desktop\kullanıcı sayfaları\deneme\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.csproj.AssemblyReference.cache
-C:\Users\Ahmet\Desktop\kullanıcı sayfaları\deneme\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Ahmet\Desktop\kullanıcı sayfaları\deneme\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.AssemblyInfoInputs.cache
-C:\Users\Ahmet\Desktop\kullanıcı sayfaları\deneme\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.AssemblyInfo.cs
-C:\Users\Ahmet\Desktop\kullanıcı sayfaları\deneme\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.csproj.CoreCompileInputs.cache
-C:\Users\Ahmet\Desktop\kullanıcı sayfaları\deneme\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.csproj.CopyComplete
-C:\Users\Ahmet\Desktop\kullanıcı sayfaları\deneme\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.dll
-C:\Users\Ahmet\Desktop\kullanıcı sayfaları\deneme\ecommerce\ecommerce.data\obj\Debug\net5.0\ref\ecommerce.data.dll
-C:\Users\Ahmet\Desktop\kullanıcı sayfaları\deneme\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.pdb
-C:\Users\Ahmet\Desktop\kullanıcı sayfaları\deneme\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.genruntimeconfig.cache
-C:\Users\Ahmet\Desktop\kullanıcı sayfaları\deneme\ecommerce\ecommerce.data\bin\Debug\net5.0\ref\ecommerce.data.dll
-C:\Users\Ahmet\Desktop\kullanıcı sayfaları\deneme2\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.deps.json
-C:\Users\Ahmet\Desktop\kullanıcı sayfaları\deneme2\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.runtimeconfig.json
-C:\Users\Ahmet\Desktop\kullanıcı sayfaları\deneme2\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.runtimeconfig.dev.json
-C:\Users\Ahmet\Desktop\kullanıcı sayfaları\deneme2\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.dll
-C:\Users\Ahmet\Desktop\kullanıcı sayfaları\deneme2\ecommerce\ecommerce.data\bin\Debug\net5.0\ref\ecommerce.data.dll
-C:\Users\Ahmet\Desktop\kullanıcı sayfaları\deneme2\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.pdb
-C:\Users\Ahmet\Desktop\kullanıcı sayfaları\deneme2\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.entity.dll
-C:\Users\Ahmet\Desktop\kullanıcı sayfaları\deneme2\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.entity.pdb
-C:\Users\Ahmet\Desktop\kullanıcı sayfaları\deneme2\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.csproj.AssemblyReference.cache
-C:\Users\Ahmet\Desktop\kullanıcı sayfaları\deneme2\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Ahmet\Desktop\kullanıcı sayfaları\deneme2\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.AssemblyInfoInputs.cache
-C:\Users\Ahmet\Desktop\kullanıcı sayfaları\deneme2\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.AssemblyInfo.cs
-C:\Users\Ahmet\Desktop\kullanıcı sayfaları\deneme2\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.csproj.CoreCompileInputs.cache
-C:\Users\Ahmet\Desktop\kullanıcı sayfaları\deneme2\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.csproj.CopyComplete
-C:\Users\Ahmet\Desktop\kullanıcı sayfaları\deneme2\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.dll
-C:\Users\Ahmet\Desktop\kullanıcı sayfaları\deneme2\ecommerce\ecommerce.data\obj\Debug\net5.0\ref\ecommerce.data.dll
-C:\Users\Ahmet\Desktop\kullanıcı sayfaları\deneme2\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.pdb
-C:\Users\Ahmet\Desktop\kullanıcı sayfaları\deneme2\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.genruntimeconfig.cache
-C:\Users\Ahmet\Desktop\admin sayfaları\proje\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.deps.json
-C:\Users\Ahmet\Desktop\admin sayfaları\proje\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.runtimeconfig.json
-C:\Users\Ahmet\Desktop\admin sayfaları\proje\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.runtimeconfig.dev.json
-C:\Users\Ahmet\Desktop\admin sayfaları\proje\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.dll
-C:\Users\Ahmet\Desktop\admin sayfaları\proje\ecommerce\ecommerce.data\bin\Debug\net5.0\ref\ecommerce.data.dll
-C:\Users\Ahmet\Desktop\admin sayfaları\proje\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.pdb
-C:\Users\Ahmet\Desktop\admin sayfaları\proje\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.entity.dll
-C:\Users\Ahmet\Desktop\admin sayfaları\proje\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.entity.pdb
-C:\Users\Ahmet\Desktop\admin sayfaları\proje\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.csproj.AssemblyReference.cache
-C:\Users\Ahmet\Desktop\admin sayfaları\proje\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Ahmet\Desktop\admin sayfaları\proje\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.AssemblyInfoInputs.cache
-C:\Users\Ahmet\Desktop\admin sayfaları\proje\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.AssemblyInfo.cs
-C:\Users\Ahmet\Desktop\admin sayfaları\proje\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.csproj.CoreCompileInputs.cache
-C:\Users\Ahmet\Desktop\admin sayfaları\proje\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.csproj.CopyComplete
-C:\Users\Ahmet\Desktop\admin sayfaları\proje\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.dll
-C:\Users\Ahmet\Desktop\admin sayfaları\proje\ecommerce\ecommerce.data\obj\Debug\net5.0\ref\ecommerce.data.dll
-C:\Users\Ahmet\Desktop\admin sayfaları\proje\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.pdb
-C:\Users\Ahmet\Desktop\admin sayfaları\proje\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.genruntimeconfig.cache
-C:\Users\Ahmet\Desktop\Sipariş Süreci\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.deps.json
-C:\Users\Ahmet\Desktop\Sipariş Süreci\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.runtimeconfig.json
-C:\Users\Ahmet\Desktop\Sipariş Süreci\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.runtimeconfig.dev.json
-C:\Users\Ahmet\Desktop\Sipariş Süreci\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.dll
-C:\Users\Ahmet\Desktop\Sipariş Süreci\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.pdb
-C:\Users\Ahmet\Desktop\Sipariş Süreci\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.entity.dll
-C:\Users\Ahmet\Desktop\Sipariş Süreci\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.entity.pdb
-C:\Users\Ahmet\Desktop\Sipariş Süreci\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.csproj.AssemblyReference.cache
-C:\Users\Ahmet\Desktop\Sipariş Süreci\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Ahmet\Desktop\Sipariş Süreci\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.AssemblyInfoInputs.cache
-C:\Users\Ahmet\Desktop\Sipariş Süreci\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.AssemblyInfo.cs
-C:\Users\Ahmet\Desktop\Sipariş Süreci\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.csproj.CoreCompileInputs.cache
-C:\Users\Ahmet\Desktop\Sipariş Süreci\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.csproj.CopyComplete
-C:\Users\Ahmet\Desktop\Sipariş Süreci\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.dll
-C:\Users\Ahmet\Desktop\Sipariş Süreci\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.pdb
-C:\Users\Ahmet\Desktop\Sipariş Süreci\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.genruntimeconfig.cache
-C:\Users\Ahmet\Desktop\Sipariş Süreci\ecommerce\ecommerce.data\obj\Debug\net5.0\ref\ecommerce.data.dll
-C:\Users\Ahmet\Desktop\Sipariş Süreci\ecommerce\ecommerce.data\bin\Debug\net5.0\ref\ecommerce.data.dll
-C:\Users\Ahmet\Desktop\ProjeSon\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.deps.json
-C:\Users\Ahmet\Desktop\ProjeSon\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.runtimeconfig.json
-C:\Users\Ahmet\Desktop\ProjeSon\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.runtimeconfig.dev.json
-C:\Users\Ahmet\Desktop\ProjeSon\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.dll
-C:\Users\Ahmet\Desktop\ProjeSon\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.pdb
-C:\Users\Ahmet\Desktop\ProjeSon\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.entity.dll
-C:\Users\Ahmet\Desktop\ProjeSon\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.entity.pdb
-C:\Users\Ahmet\Desktop\ProjeSon\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.csproj.AssemblyReference.cache
-C:\Users\Ahmet\Desktop\ProjeSon\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Ahmet\Desktop\ProjeSon\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.AssemblyInfoInputs.cache
-C:\Users\Ahmet\Desktop\ProjeSon\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.AssemblyInfo.cs
-C:\Users\Ahmet\Desktop\ProjeSon\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.csproj.CoreCompileInputs.cache
-C:\Users\Ahmet\Desktop\ProjeSon\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.csproj.CopyComplete
-C:\Users\Ahmet\Desktop\ProjeSon\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.dll
-C:\Users\Ahmet\Desktop\ProjeSon\ecommerce\ecommerce.data\obj\Debug\net5.0\ref\ecommerce.data.dll
-C:\Users\Ahmet\Desktop\ProjeSon\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.pdb
-C:\Users\Ahmet\Desktop\ProjeSon\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.genruntimeconfig.cache
-C:\Users\Ahmet\Desktop\ProjeSon\ecommerce\ecommerce.data\bin\Debug\net5.0\ref\ecommerce.data.dll
-C:\Users\Ahmet\Desktop\ProjeSon1\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.deps.json
-C:\Users\Ahmet\Desktop\ProjeSon1\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.runtimeconfig.json
-C:\Users\Ahmet\Desktop\ProjeSon1\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.runtimeconfig.dev.json
-C:\Users\Ahmet\Desktop\ProjeSon1\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.dll
-C:\Users\Ahmet\Desktop\ProjeSon1\ecommerce\ecommerce.data\bin\Debug\net5.0\ref\ecommerce.data.dll
-C:\Users\Ahmet\Desktop\ProjeSon1\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.pdb
-C:\Users\Ahmet\Desktop\ProjeSon1\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.entity.dll
-C:\Users\Ahmet\Desktop\ProjeSon1\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.entity.pdb
-C:\Users\Ahmet\Desktop\ProjeSon1\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.csproj.AssemblyReference.cache
-C:\Users\Ahmet\Desktop\ProjeSon1\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Ahmet\Desktop\ProjeSon1\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.AssemblyInfoInputs.cache
-C:\Users\Ahmet\Desktop\ProjeSon1\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.AssemblyInfo.cs
-C:\Users\Ahmet\Desktop\ProjeSon1\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.csproj.CoreCompileInputs.cache
-C:\Users\Ahmet\Desktop\ProjeSon1\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.csproj.CopyComplete
-C:\Users\Ahmet\Desktop\ProjeSon1\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.dll
-C:\Users\Ahmet\Desktop\ProjeSon1\ecommerce\ecommerce.data\obj\Debug\net5.0\ref\ecommerce.data.dll
-C:\Users\Ahmet\Desktop\ProjeSon1\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.pdb
-C:\Users\Ahmet\Desktop\ProjeSon1\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.genruntimeconfig.cache
-C:\Users\Ahmet\Desktop\ProjeSon2\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.deps.json
-C:\Users\Ahmet\Desktop\ProjeSon2\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.runtimeconfig.json
-C:\Users\Ahmet\Desktop\ProjeSon2\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.runtimeconfig.dev.json
-C:\Users\Ahmet\Desktop\ProjeSon2\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.dll
-C:\Users\Ahmet\Desktop\ProjeSon2\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.pdb
-C:\Users\Ahmet\Desktop\ProjeSon2\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.entity.dll
-C:\Users\Ahmet\Desktop\ProjeSon2\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.entity.pdb
-C:\Users\Ahmet\Desktop\ProjeSon2\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.csproj.AssemblyReference.cache
-C:\Users\Ahmet\Desktop\ProjeSon2\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Ahmet\Desktop\ProjeSon2\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.AssemblyInfoInputs.cache
-C:\Users\Ahmet\Desktop\ProjeSon2\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.AssemblyInfo.cs
-C:\Users\Ahmet\Desktop\ProjeSon2\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.csproj.CoreCompileInputs.cache
-C:\Users\Ahmet\Desktop\ProjeSon2\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.csproj.CopyComplete
-C:\Users\Ahmet\Desktop\ProjeSon2\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.dll
-C:\Users\Ahmet\Desktop\ProjeSon2\ecommerce\ecommerce.data\obj\Debug\net5.0\ref\ecommerce.data.dll
-C:\Users\Ahmet\Desktop\ProjeSon2\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.pdb
-C:\Users\Ahmet\Desktop\ProjeSon2\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.genruntimeconfig.cache
-C:\Users\Ahmet\Desktop\ProjeSon2\ecommerce\ecommerce.data\bin\Debug\net5.0\ref\ecommerce.data.dll
-C:\Users\Ahmet\Desktop\ProjeSon3\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.deps.json
-C:\Users\Ahmet\Desktop\ProjeSon3\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.runtimeconfig.json
-C:\Users\Ahmet\Desktop\ProjeSon3\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.runtimeconfig.dev.json
-C:\Users\Ahmet\Desktop\ProjeSon3\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.dll
-C:\Users\Ahmet\Desktop\ProjeSon3\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.pdb
-C:\Users\Ahmet\Desktop\ProjeSon3\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.entity.dll
-C:\Users\Ahmet\Desktop\ProjeSon3\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.entity.pdb
-C:\Users\Ahmet\Desktop\ProjeSon3\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.csproj.AssemblyReference.cache
-C:\Users\Ahmet\Desktop\ProjeSon3\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Ahmet\Desktop\ProjeSon3\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.AssemblyInfoInputs.cache
-C:\Users\Ahmet\Desktop\ProjeSon3\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.AssemblyInfo.cs
-C:\Users\Ahmet\Desktop\ProjeSon3\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.csproj.CoreCompileInputs.cache
-C:\Users\Ahmet\Desktop\ProjeSon3\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.csproj.CopyComplete
-C:\Users\Ahmet\Desktop\ProjeSon3\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.dll
-C:\Users\Ahmet\Desktop\ProjeSon3\ecommerce\ecommerce.data\obj\Debug\net5.0\ref\ecommerce.data.dll
-C:\Users\Ahmet\Desktop\ProjeSon3\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.pdb
-C:\Users\Ahmet\Desktop\ProjeSon3\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.genruntimeconfig.cache
-C:\Users\Ahmet\Desktop\ProjeSon3\ecommerce\ecommerce.data\bin\Debug\net5.0\ref\ecommerce.data.dll
-C:\Users\Ahmet\Desktop\ProjeSon4\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.deps.json
-C:\Users\Ahmet\Desktop\ProjeSon4\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.runtimeconfig.json
-C:\Users\Ahmet\Desktop\ProjeSon4\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.runtimeconfig.dev.json
-C:\Users\Ahmet\Desktop\ProjeSon4\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.dll
-C:\Users\Ahmet\Desktop\ProjeSon4\ecommerce\ecommerce.data\bin\Debug\net5.0\ref\ecommerce.data.dll
-C:\Users\Ahmet\Desktop\ProjeSon4\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.data.pdb
-C:\Users\Ahmet\Desktop\ProjeSon4\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.entity.dll
-C:\Users\Ahmet\Desktop\ProjeSon4\ecommerce\ecommerce.data\bin\Debug\net5.0\ecommerce.entity.pdb
-C:\Users\Ahmet\Desktop\ProjeSon4\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.csproj.AssemblyReference.cache
-C:\Users\Ahmet\Desktop\ProjeSon4\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Ahmet\Desktop\ProjeSon4\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.AssemblyInfoInputs.cache
-C:\Users\Ahmet\Desktop\ProjeSon4\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.AssemblyInfo.cs
-C:\Users\Ahmet\Desktop\ProjeSon4\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.csproj.CoreCompileInputs.cache
-C:\Users\Ahmet\Desktop\ProjeSon4\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.csproj.CopyComplete
-C:\Users\Ahmet\Desktop\ProjeSon4\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.dll
-C:\Users\Ahmet\Desktop\ProjeSon4\ecommerce\ecommerce.data\obj\Debug\net5.0\ref\ecommerce.data.dll
-C:\Users\Ahmet\Desktop\ProjeSon4\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.pdb
-C:\Users\Ahmet\Desktop\ProjeSon4\ecommerce\ecommerce.data\obj\Debug\net5.0\ecommerce.data.genruntimeconfig.cache
+C:/Users/Ahmet/Desktop/en baştan/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.deps.json
+C:/Users/Ahmet/Desktop/en baştan/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.runtimeconfig.json
+C:/Users/Ahmet/Desktop/en baştan/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.runtimeconfig.dev.json
+C:/Users/Ahmet/Desktop/en baştan/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.dll
+C:/Users/Ahmet/Desktop/en baştan/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.pdb
+C:/Users/Ahmet/Desktop/en baştan/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.entity.dll
+C:/Users/Ahmet/Desktop/en baştan/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.entity.pdb
+C:/Users/Ahmet/Desktop/en baştan/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.csproj.AssemblyReference.cache
+C:/Users/Ahmet/Desktop/en baştan/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Ahmet/Desktop/en baştan/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.AssemblyInfoInputs.cache
+C:/Users/Ahmet/Desktop/en baştan/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.AssemblyInfo.cs
+C:/Users/Ahmet/Desktop/en baştan/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.csproj.CoreCompileInputs.cache
+C:/Users/Ahmet/Desktop/en baştan/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.csproj.CopyComplete
+C:/Users/Ahmet/Desktop/en baştan/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.dll
+C:/Users/Ahmet/Desktop/en baştan/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.pdb
+C:/Users/Ahmet/Desktop/en baştan/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.genruntimeconfig.cache
+C:/Users/Ahmet/Desktop/en baştan/ecommerce/ecommerce.data/obj/Debug/net5.0/ref/ecommerce.data.dll
+C:/Users/Ahmet/Desktop/en baştan/ecommerce/ecommerce.data/bin/Debug/net5.0/ref/ecommerce.data.dll
+C:/Users/Ahmet/Desktop/kullanıcı sayfaları/deneme/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.deps.json
+C:/Users/Ahmet/Desktop/kullanıcı sayfaları/deneme/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.runtimeconfig.json
+C:/Users/Ahmet/Desktop/kullanıcı sayfaları/deneme/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.runtimeconfig.dev.json
+C:/Users/Ahmet/Desktop/kullanıcı sayfaları/deneme/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.dll
+C:/Users/Ahmet/Desktop/kullanıcı sayfaları/deneme/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.pdb
+C:/Users/Ahmet/Desktop/kullanıcı sayfaları/deneme/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.entity.dll
+C:/Users/Ahmet/Desktop/kullanıcı sayfaları/deneme/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.entity.pdb
+C:/Users/Ahmet/Desktop/kullanıcı sayfaları/deneme/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.csproj.AssemblyReference.cache
+C:/Users/Ahmet/Desktop/kullanıcı sayfaları/deneme/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Ahmet/Desktop/kullanıcı sayfaları/deneme/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.AssemblyInfoInputs.cache
+C:/Users/Ahmet/Desktop/kullanıcı sayfaları/deneme/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.AssemblyInfo.cs
+C:/Users/Ahmet/Desktop/kullanıcı sayfaları/deneme/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.csproj.CoreCompileInputs.cache
+C:/Users/Ahmet/Desktop/kullanıcı sayfaları/deneme/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.csproj.CopyComplete
+C:/Users/Ahmet/Desktop/kullanıcı sayfaları/deneme/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.dll
+C:/Users/Ahmet/Desktop/kullanıcı sayfaları/deneme/ecommerce/ecommerce.data/obj/Debug/net5.0/ref/ecommerce.data.dll
+C:/Users/Ahmet/Desktop/kullanıcı sayfaları/deneme/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.pdb
+C:/Users/Ahmet/Desktop/kullanıcı sayfaları/deneme/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.genruntimeconfig.cache
+C:/Users/Ahmet/Desktop/kullanıcı sayfaları/deneme/ecommerce/ecommerce.data/bin/Debug/net5.0/ref/ecommerce.data.dll
+C:/Users/Ahmet/Desktop/kullanıcı sayfaları/deneme2/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.deps.json
+C:/Users/Ahmet/Desktop/kullanıcı sayfaları/deneme2/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.runtimeconfig.json
+C:/Users/Ahmet/Desktop/kullanıcı sayfaları/deneme2/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.runtimeconfig.dev.json
+C:/Users/Ahmet/Desktop/kullanıcı sayfaları/deneme2/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.dll
+C:/Users/Ahmet/Desktop/kullanıcı sayfaları/deneme2/ecommerce/ecommerce.data/bin/Debug/net5.0/ref/ecommerce.data.dll
+C:/Users/Ahmet/Desktop/kullanıcı sayfaları/deneme2/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.pdb
+C:/Users/Ahmet/Desktop/kullanıcı sayfaları/deneme2/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.entity.dll
+C:/Users/Ahmet/Desktop/kullanıcı sayfaları/deneme2/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.entity.pdb
+C:/Users/Ahmet/Desktop/kullanıcı sayfaları/deneme2/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.csproj.AssemblyReference.cache
+C:/Users/Ahmet/Desktop/kullanıcı sayfaları/deneme2/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Ahmet/Desktop/kullanıcı sayfaları/deneme2/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.AssemblyInfoInputs.cache
+C:/Users/Ahmet/Desktop/kullanıcı sayfaları/deneme2/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.AssemblyInfo.cs
+C:/Users/Ahmet/Desktop/kullanıcı sayfaları/deneme2/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.csproj.CoreCompileInputs.cache
+C:/Users/Ahmet/Desktop/kullanıcı sayfaları/deneme2/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.csproj.CopyComplete
+C:/Users/Ahmet/Desktop/kullanıcı sayfaları/deneme2/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.dll
+C:/Users/Ahmet/Desktop/kullanıcı sayfaları/deneme2/ecommerce/ecommerce.data/obj/Debug/net5.0/ref/ecommerce.data.dll
+C:/Users/Ahmet/Desktop/kullanıcı sayfaları/deneme2/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.pdb
+C:/Users/Ahmet/Desktop/kullanıcı sayfaları/deneme2/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.genruntimeconfig.cache
+C:/Users/Ahmet/Desktop/admin sayfaları/proje/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.deps.json
+C:/Users/Ahmet/Desktop/admin sayfaları/proje/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.runtimeconfig.json
+C:/Users/Ahmet/Desktop/admin sayfaları/proje/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.runtimeconfig.dev.json
+C:/Users/Ahmet/Desktop/admin sayfaları/proje/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.dll
+C:/Users/Ahmet/Desktop/admin sayfaları/proje/ecommerce/ecommerce.data/bin/Debug/net5.0/ref/ecommerce.data.dll
+C:/Users/Ahmet/Desktop/admin sayfaları/proje/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.pdb
+C:/Users/Ahmet/Desktop/admin sayfaları/proje/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.entity.dll
+C:/Users/Ahmet/Desktop/admin sayfaları/proje/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.entity.pdb
+C:/Users/Ahmet/Desktop/admin sayfaları/proje/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.csproj.AssemblyReference.cache
+C:/Users/Ahmet/Desktop/admin sayfaları/proje/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Ahmet/Desktop/admin sayfaları/proje/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.AssemblyInfoInputs.cache
+C:/Users/Ahmet/Desktop/admin sayfaları/proje/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.AssemblyInfo.cs
+C:/Users/Ahmet/Desktop/admin sayfaları/proje/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.csproj.CoreCompileInputs.cache
+C:/Users/Ahmet/Desktop/admin sayfaları/proje/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.csproj.CopyComplete
+C:/Users/Ahmet/Desktop/admin sayfaları/proje/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.dll
+C:/Users/Ahmet/Desktop/admin sayfaları/proje/ecommerce/ecommerce.data/obj/Debug/net5.0/ref/ecommerce.data.dll
+C:/Users/Ahmet/Desktop/admin sayfaları/proje/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.pdb
+C:/Users/Ahmet/Desktop/admin sayfaları/proje/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.genruntimeconfig.cache
+C:/Users/Ahmet/Desktop/Sipariş Süreci/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.deps.json
+C:/Users/Ahmet/Desktop/Sipariş Süreci/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.runtimeconfig.json
+C:/Users/Ahmet/Desktop/Sipariş Süreci/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.runtimeconfig.dev.json
+C:/Users/Ahmet/Desktop/Sipariş Süreci/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.dll
+C:/Users/Ahmet/Desktop/Sipariş Süreci/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.pdb
+C:/Users/Ahmet/Desktop/Sipariş Süreci/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.entity.dll
+C:/Users/Ahmet/Desktop/Sipariş Süreci/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.entity.pdb
+C:/Users/Ahmet/Desktop/Sipariş Süreci/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.csproj.AssemblyReference.cache
+C:/Users/Ahmet/Desktop/Sipariş Süreci/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Ahmet/Desktop/Sipariş Süreci/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.AssemblyInfoInputs.cache
+C:/Users/Ahmet/Desktop/Sipariş Süreci/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.AssemblyInfo.cs
+C:/Users/Ahmet/Desktop/Sipariş Süreci/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.csproj.CoreCompileInputs.cache
+C:/Users/Ahmet/Desktop/Sipariş Süreci/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.csproj.CopyComplete
+C:/Users/Ahmet/Desktop/Sipariş Süreci/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.dll
+C:/Users/Ahmet/Desktop/Sipariş Süreci/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.pdb
+C:/Users/Ahmet/Desktop/Sipariş Süreci/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.genruntimeconfig.cache
+C:/Users/Ahmet/Desktop/Sipariş Süreci/ecommerce/ecommerce.data/obj/Debug/net5.0/ref/ecommerce.data.dll
+C:/Users/Ahmet/Desktop/Sipariş Süreci/ecommerce/ecommerce.data/bin/Debug/net5.0/ref/ecommerce.data.dll
+C:/Users/Ahmet/Desktop/ProjeSon/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.deps.json
+C:/Users/Ahmet/Desktop/ProjeSon/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.runtimeconfig.json
+C:/Users/Ahmet/Desktop/ProjeSon/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.runtimeconfig.dev.json
+C:/Users/Ahmet/Desktop/ProjeSon/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.dll
+C:/Users/Ahmet/Desktop/ProjeSon/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.pdb
+C:/Users/Ahmet/Desktop/ProjeSon/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.entity.dll
+C:/Users/Ahmet/Desktop/ProjeSon/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.entity.pdb
+C:/Users/Ahmet/Desktop/ProjeSon/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.csproj.AssemblyReference.cache
+C:/Users/Ahmet/Desktop/ProjeSon/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Ahmet/Desktop/ProjeSon/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.AssemblyInfoInputs.cache
+C:/Users/Ahmet/Desktop/ProjeSon/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.AssemblyInfo.cs
+C:/Users/Ahmet/Desktop/ProjeSon/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.csproj.CoreCompileInputs.cache
+C:/Users/Ahmet/Desktop/ProjeSon/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.csproj.CopyComplete
+C:/Users/Ahmet/Desktop/ProjeSon/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.dll
+C:/Users/Ahmet/Desktop/ProjeSon/ecommerce/ecommerce.data/obj/Debug/net5.0/ref/ecommerce.data.dll
+C:/Users/Ahmet/Desktop/ProjeSon/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.pdb
+C:/Users/Ahmet/Desktop/ProjeSon/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.genruntimeconfig.cache
+C:/Users/Ahmet/Desktop/ProjeSon/ecommerce/ecommerce.data/bin/Debug/net5.0/ref/ecommerce.data.dll
+C:/Users/Ahmet/Desktop/ProjeSon1/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.deps.json
+C:/Users/Ahmet/Desktop/ProjeSon1/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.runtimeconfig.json
+C:/Users/Ahmet/Desktop/ProjeSon1/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.runtimeconfig.dev.json
+C:/Users/Ahmet/Desktop/ProjeSon1/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.dll
+C:/Users/Ahmet/Desktop/ProjeSon1/ecommerce/ecommerce.data/bin/Debug/net5.0/ref/ecommerce.data.dll
+C:/Users/Ahmet/Desktop/ProjeSon1/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.pdb
+C:/Users/Ahmet/Desktop/ProjeSon1/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.entity.dll
+C:/Users/Ahmet/Desktop/ProjeSon1/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.entity.pdb
+C:/Users/Ahmet/Desktop/ProjeSon1/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.csproj.AssemblyReference.cache
+C:/Users/Ahmet/Desktop/ProjeSon1/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Ahmet/Desktop/ProjeSon1/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.AssemblyInfoInputs.cache
+C:/Users/Ahmet/Desktop/ProjeSon1/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.AssemblyInfo.cs
+C:/Users/Ahmet/Desktop/ProjeSon1/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.csproj.CoreCompileInputs.cache
+C:/Users/Ahmet/Desktop/ProjeSon1/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.csproj.CopyComplete
+C:/Users/Ahmet/Desktop/ProjeSon1/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.dll
+C:/Users/Ahmet/Desktop/ProjeSon1/ecommerce/ecommerce.data/obj/Debug/net5.0/ref/ecommerce.data.dll
+C:/Users/Ahmet/Desktop/ProjeSon1/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.pdb
+C:/Users/Ahmet/Desktop/ProjeSon1/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.genruntimeconfig.cache
+C:/Users/Ahmet/Desktop/ProjeSon2/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.deps.json
+C:/Users/Ahmet/Desktop/ProjeSon2/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.runtimeconfig.json
+C:/Users/Ahmet/Desktop/ProjeSon2/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.runtimeconfig.dev.json
+C:/Users/Ahmet/Desktop/ProjeSon2/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.dll
+C:/Users/Ahmet/Desktop/ProjeSon2/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.pdb
+C:/Users/Ahmet/Desktop/ProjeSon2/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.entity.dll
+C:/Users/Ahmet/Desktop/ProjeSon2/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.entity.pdb
+C:/Users/Ahmet/Desktop/ProjeSon2/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.csproj.AssemblyReference.cache
+C:/Users/Ahmet/Desktop/ProjeSon2/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Ahmet/Desktop/ProjeSon2/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.AssemblyInfoInputs.cache
+C:/Users/Ahmet/Desktop/ProjeSon2/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.AssemblyInfo.cs
+C:/Users/Ahmet/Desktop/ProjeSon2/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.csproj.CoreCompileInputs.cache
+C:/Users/Ahmet/Desktop/ProjeSon2/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.csproj.CopyComplete
+C:/Users/Ahmet/Desktop/ProjeSon2/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.dll
+C:/Users/Ahmet/Desktop/ProjeSon2/ecommerce/ecommerce.data/obj/Debug/net5.0/ref/ecommerce.data.dll
+C:/Users/Ahmet/Desktop/ProjeSon2/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.pdb
+C:/Users/Ahmet/Desktop/ProjeSon2/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.genruntimeconfig.cache
+C:/Users/Ahmet/Desktop/ProjeSon2/ecommerce/ecommerce.data/bin/Debug/net5.0/ref/ecommerce.data.dll
+C:/Users/Ahmet/Desktop/ProjeSon3/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.deps.json
+C:/Users/Ahmet/Desktop/ProjeSon3/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.runtimeconfig.json
+C:/Users/Ahmet/Desktop/ProjeSon3/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.runtimeconfig.dev.json
+C:/Users/Ahmet/Desktop/ProjeSon3/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.dll
+C:/Users/Ahmet/Desktop/ProjeSon3/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.pdb
+C:/Users/Ahmet/Desktop/ProjeSon3/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.entity.dll
+C:/Users/Ahmet/Desktop/ProjeSon3/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.entity.pdb
+C:/Users/Ahmet/Desktop/ProjeSon3/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.csproj.AssemblyReference.cache
+C:/Users/Ahmet/Desktop/ProjeSon3/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Ahmet/Desktop/ProjeSon3/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.AssemblyInfoInputs.cache
+C:/Users/Ahmet/Desktop/ProjeSon3/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.AssemblyInfo.cs
+C:/Users/Ahmet/Desktop/ProjeSon3/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.csproj.CoreCompileInputs.cache
+C:/Users/Ahmet/Desktop/ProjeSon3/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.csproj.CopyComplete
+C:/Users/Ahmet/Desktop/ProjeSon3/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.dll
+C:/Users/Ahmet/Desktop/ProjeSon3/ecommerce/ecommerce.data/obj/Debug/net5.0/ref/ecommerce.data.dll
+C:/Users/Ahmet/Desktop/ProjeSon3/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.pdb
+C:/Users/Ahmet/Desktop/ProjeSon3/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.genruntimeconfig.cache
+C:/Users/Ahmet/Desktop/ProjeSon3/ecommerce/ecommerce.data/bin/Debug/net5.0/ref/ecommerce.data.dll
+C:/Users/Ahmet/Desktop/ProjeSon4/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.deps.json
+C:/Users/Ahmet/Desktop/ProjeSon4/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.runtimeconfig.json
+C:/Users/Ahmet/Desktop/ProjeSon4/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.runtimeconfig.dev.json
+C:/Users/Ahmet/Desktop/ProjeSon4/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.dll
+C:/Users/Ahmet/Desktop/ProjeSon4/ecommerce/ecommerce.data/bin/Debug/net5.0/ref/ecommerce.data.dll
+C:/Users/Ahmet/Desktop/ProjeSon4/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.pdb
+C:/Users/Ahmet/Desktop/ProjeSon4/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.entity.dll
+C:/Users/Ahmet/Desktop/ProjeSon4/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.entity.pdb
+C:/Users/Ahmet/Desktop/ProjeSon4/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.csproj.AssemblyReference.cache
+C:/Users/Ahmet/Desktop/ProjeSon4/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Ahmet/Desktop/ProjeSon4/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.AssemblyInfoInputs.cache
+C:/Users/Ahmet/Desktop/ProjeSon4/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.AssemblyInfo.cs
+C:/Users/Ahmet/Desktop/ProjeSon4/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.csproj.CoreCompileInputs.cache
+C:/Users/Ahmet/Desktop/ProjeSon4/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.csproj.CopyComplete
+C:/Users/Ahmet/Desktop/ProjeSon4/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.dll
+C:/Users/Ahmet/Desktop/ProjeSon4/ecommerce/ecommerce.data/obj/Debug/net5.0/ref/ecommerce.data.dll
+C:/Users/Ahmet/Desktop/ProjeSon4/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.pdb
+C:/Users/Ahmet/Desktop/ProjeSon4/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.genruntimeconfig.cache
+/home/ahmet/proje/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.deps.json
+/home/ahmet/proje/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.runtimeconfig.json
+/home/ahmet/proje/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.runtimeconfig.dev.json
+/home/ahmet/proje/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.dll
+/home/ahmet/proje/ecommerce/ecommerce.data/bin/Debug/net5.0/ref/ecommerce.data.dll
+/home/ahmet/proje/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.data.pdb
+/home/ahmet/proje/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.entity.dll
+/home/ahmet/proje/ecommerce/ecommerce.data/bin/Debug/net5.0/ecommerce.entity.pdb
+/home/ahmet/proje/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.csproj.AssemblyReference.cache
+/home/ahmet/proje/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.GeneratedMSBuildEditorConfig.editorconfig
+/home/ahmet/proje/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.AssemblyInfoInputs.cache
+/home/ahmet/proje/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.AssemblyInfo.cs
+/home/ahmet/proje/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.csproj.CoreCompileInputs.cache
+/home/ahmet/proje/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.csproj.CopyComplete
+/home/ahmet/proje/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.dll
+/home/ahmet/proje/ecommerce/ecommerce.data/obj/Debug/net5.0/ref/ecommerce.data.dll
+/home/ahmet/proje/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.pdb
+/home/ahmet/proje/ecommerce/ecommerce.data/obj/Debug/net5.0/ecommerce.data.genruntimeconfig.cache

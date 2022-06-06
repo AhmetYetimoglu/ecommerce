@@ -443,6 +443,46 @@ namespace ecommerce.webui.Controllers
 
             return RedirectToAction("CategoryList");
         }
+
+        public async Task<IActionResult> DeleteRole(string RoleId)
+        {
+            var role = await _roleManager.FindByIdAsync(RoleId);
+
+
+            if(role!=null)
+            {
+                await _roleManager.DeleteAsync(role);
+            }
+
+              var msg = new AlertMessage()
+            {            
+                Message = $"{role.Name} isimli rol silindi.",
+                AlertType = "danger"
+            };
+
+            TempData["message"] =  JsonConvert.SerializeObject(msg);
+
+            return RedirectToAction("RoleList");
+        }
+        public async Task<IActionResult> DeleteUser(string UserId)
+        {
+            var user = await _userManager.FindByIdAsync(UserId);
+
+            if(user!=null)
+            {
+                await _userManager.DeleteAsync(user);
+            }
+
+              var msg = new AlertMessage()
+            {            
+                Message = $"{user.UserName} isimli kullanıcı silindi.",
+                AlertType = "danger"
+            };
+
+            TempData["message"] =  JsonConvert.SerializeObject(msg);
+
+            return RedirectToAction("UserList");
+        }
     
         [HttpPost]
         public IActionResult DeleteFromCategory(int productId,int categoryId)

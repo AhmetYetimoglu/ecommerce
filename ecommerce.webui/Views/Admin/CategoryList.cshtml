@@ -23,6 +23,10 @@
 <body>
 	@await Html.PartialAsync("_header")  
 	<div class="container">
+        @if(TempData["message"]!=null)
+        {
+            <partial name="_ResultMessage" model="@(TempData.Get<AlertMessage>("message"))"/>
+        }
 		<div class="row">
             <div class="col-md-12">
                 <h1 class="h3">Admin Kategorileri</h1>
