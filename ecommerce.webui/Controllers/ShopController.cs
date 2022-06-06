@@ -53,6 +53,10 @@ namespace ecommerce.webui.Controllers
             }
             ProductCommentViewModel vm = new ProductCommentViewModel();
 
+            var products = _productService.GetAll().Take(5);
+
+            vm.Products = products.ToList();
+
             vm.Title = product.Name;
 
             var productId = product.ProductId;

@@ -15,6 +15,8 @@ namespace ecommerce.webui.Models
 
         public List<ProductComment> ListOfComments { get; set; }
 
+        public List<Product> Products { get; set; }
+
         public string Comment { get; set; }
 
         public int ProductId { get; set; }

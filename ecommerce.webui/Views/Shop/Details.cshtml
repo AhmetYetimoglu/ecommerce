@@ -149,12 +149,16 @@ textarea{
 			<div class="clearfix"> </div>
 			</div>
 			<ul id="flexiselDemo1">
-		<li><img src="~/img/1660S.jpg" /><div class="grid-flex"><a href="/1660S">1660S</a><p>10000 TL</p></div></li>
-		<li><img src="~/img/6500XT.jpg" /><div class="grid-flex"><a href="/6500XT">6500XT</a><p>8800 TL</p></div></li>
-		<li><img src="~/img/6700XT.jpg" /><div class="grid-flex"><a href="/6700XT">6700XT</a><p>15000 TL</p></div></li>
-		<li><img src="~/img/1660TI.jpg" /><div class="grid-flex"><a href="/1660TI">1660TI</a><p>11500 TL</p></div></li>
-		<li><img src="~/img/2060.jpg" /><div class="grid-flex"><a href="/2060">2060</a><p>13000 TL</p></div></li>
-		</ul>
+				@foreach (var item in Model.Products)
+				{
+					<li><img src="~/img/@item.ImageUrl" /><div class="grid-flex"><a href="/@item.Url">@item.Name</a><p>@item.Price TL</p></div></li>
+				}
+				@* <li><img src="~/img/1660S.jpg" /><div class="grid-flex"><a href="/1660S">1660S</a><p>10000 TL</p></div></li>
+				<li><img src="~/img/6500XT.jpg" /><div class="grid-flex"><a href="/6500XT">6500XT</a><p>8800 TL</p></div></li>
+				<li><img src="~/img/6700XT.jpg" /><div class="grid-flex"><a href="/6700XT">6700XT</a><p>15000 TL</p></div></li>
+				<li><img src="~/img/1660TI.jpg" /><div class="grid-flex"><a href="/1660TI">1660TI</a><p>11500 TL</p></div></li>
+				<li><img src="~/img/2060.jpg" /><div class="grid-flex"><a href="/2060">2060</a><p>13000 TL</p></div></li> *@
+			</ul>
 	<script type="text/javascript">
 		$(window).load(function() {
 		$("#flexiselDemo1").flexisel({
